@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+General page css
+.pagePlate{
+    @apply bg-slate-600 h-full
+}
+
+.headerPlate{
+    @apply bg-white flex justify-start
+}
+
+.footer{
+    @apply px-3 py-9 mb-0 bg-slate-800
+}
+
+.bodyPlate{
+    @apply grid grid-cols-3 px-5 py-3 min-w-full
+}
+
+.userprofile{
+    @apply col-span-1 rounded-md m-0 p-0
+}
+
+.userdetails{
+    @apply bg-white border-b border-gray-600 rounded-md
+}
+
+.peerCards{
+    @apply flex justify-start bg-white rounded-md p-5 my-5 mx-0
+}
+
+.UserFeed{
+    @apply bg-slate-500 text-white col-span-2 rounded-md px-10 mx-2 
+}
+
+.UserFeed_body{
+    @apply grid-rows-4
+}
+
+.tabs{
+    @apply flex flex-wrap justify-between p-4
+}
+
+.h4feedtxt{
+    @apply flex font-bold text-white text-xl mt-7 pb-4 border-b border-white justify-center
+}
+
+.postcard{
+    @apply bg-white col-span-1 rounded-md p-5 m-5
+}
+
+.postmedia{
+    @apply w-full h-32 sm:h-48 object-cover
+}
+
+.postcomments{
+    @apply bg-slate-500 text-white font-bold rounded-full p-3 
+}
+
+.footer{
+    @apply px-3 py-9 mb-0 bg-slate-800
+}
+
+.chat{
+    @apply bg-slate-800 text-white row-span-3 rounded-md p-5 my-5 mx-0
+}
+
+.chatheader{
+    @apply bg-slate-600 rounded-md mb-2 p-2
+}
+
+.chatFrame{
+    @apply flex flex-col justify-start mb-2 h-80 overflow-y-scroll no-scrollbar
+}
+
+.messages{
+    @apply bg-white text-black rounded-md p-2 my-1 min-w-40 w-auto
+}
+
+.input{
+    @apply bg-white border-blue-50 font-bold row-span-1 rounded-md p-2 
+}
+
+.searchInput{
+    @apply mx-3 text-slate-500
+}
+
+.input_button{
+    @apply text-white rounded-full px-3 py-2 end-2.5 bottom-2.5 bg-slate-800 hover:bg-slate-500
+}
+
+.searchCards{
+    @apply bg-white text-red-800 rounded-full p-5 my-5 mx-0
+}
+
+.notif{
+    @apply bg-slate-500 text-white font-bold rounded-full p-3  
+}
